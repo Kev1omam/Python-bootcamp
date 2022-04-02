@@ -1,0 +1,24 @@
+.rectangle{
+
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+}
+#carre{
+
+    width: 250px;
+    height: 200px;
+    background-color: darkorange;
+    margin-left: 10px;
+    top: 8px;
+    position: relative;
+}
+#carre2{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+margin-left: 7px;
+margin-bottom: 12px;
+top: 13px;
+}
