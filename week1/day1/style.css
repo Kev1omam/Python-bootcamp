@@ -1,0 +1,38 @@
+.main-header{
+    background: black;
+    color: #050404;
+    margin-top: 0.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav{
+    min-height: 10vh;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2 rem;
+
+}
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+#logo{
+    flex: 2 1 40rem;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+body{
+    background-image: url("avengers-slider.jpg");
+}

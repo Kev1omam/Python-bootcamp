@@ -1,0 +1,55 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Always put this previous properties*/
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(./Shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+header nav{
+  padding: 10px 0;
+  /*background: rgb(10  , 78, 137);*/
+  text-align: right;
+}
+header nav ul{
+  list-style: none;
+  margin-top: 12px;
+  padding-right: 18px;
+}
+
+header nav ul li{
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+footer{
+
+  background: rgb(17, 87, 178);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 850px;
+  bottom: 0;
+
+}
