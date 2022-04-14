@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+.navbar{
+  background-color: rgb(191, 191, 215);
+
+}
+
+header{
+  background-image: url("/images/headerback.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  z-index: -1;
+  
+}
+#overlay{
+
+ /* Sit on top of the page content */ /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+
+
+ 
+  background-color: rgba(227, 22, 22, 0.5); /* Black background with opacity */
+  z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+}

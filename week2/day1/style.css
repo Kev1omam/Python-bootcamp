@@ -1,0 +1,87 @@
+.Body{
+background-color: rgba(224, 218, 218, 0.932);
+position: relative; 
+margin-top: 12px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  
+  border: solid blue;
+}
+#entete{
+
+  border: solid crimson;
+}
+#photo{
+  border: solid blueviolet;
+  position: absolute;
+  right: 60px;
+  top: 50px;
+  width: 150px;
+  height: 120px;
+}
+#entete p {
+font-size: 30px;
+position: relative;
+top: 20px;
+
+}
+#entete h2{
+  font-size: 30px;
+  
+}
+#entete h3{
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+text-decoration: overline;
+text-decoration-color: orange;
+text-decoration-style: solid  ;
+text-decoration-thickness: 5px;
+
+
+}
+#ligne{
+  
+  height: 0px;
+  border: solid blueviolet;
+  border-width: 1px;
+  position: relative;
+  margin-top: 30px;
+}
+.infoperso1{
+  border: solid blue;
+  margin-top: 15px;
+  padding: 15px;
+  
+
+
+
+
+}
+#divcontact{
+  width: 300px; 
+  border: solid black;
+  position: relative;
+  
+  
+  
+}
+#profile{
+
+  border: solid black;
+  width: 433px;
+  position:absolute;
+right: 55px;
+bottom: 33px;
+width:750px;
+height: 364px;
+}
+
+
+
+
