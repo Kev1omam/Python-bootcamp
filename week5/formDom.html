@@ -1,0 +1,20 @@
+<form id="form1" onsubmit="getvalue()"> 
+  <label>First name: </label><input type="text" name="fname" value="David"><br> 
+  <label>Last name: </label><input type="text" name="lname" value="BenGurion"><br> 
+  <input type="submit" value="Submit"> 
+</form> 
+<select id="A">
+  <option value="apple">Apple</option>
+  <option value="pear">Pear</option>
+  <option value="banana">Banana</option>
+</select>
+<script>
+ let val = document,getElementById('A');
+
+
+  function getvalue(){
+
+
+    alert (document.forms[0].elements.fname.value)
+  }
+</script>

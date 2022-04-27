@@ -1,0 +1,49 @@
+<html>
+<body>
+    <button id="btn">Click me</button>
+    <button id="btn1">Hey Hey</button>
+    <button id="jsstyle">Style</button> 
+    <div>
+      <button id="jsstyle2">Style2</button>
+  </div>
+
+    <script>
+        let x = document.getElementById("btn")
+        let y = document.getElementById("btn1")
+        let z = document.getElementById("jsstyle")
+        let w = document.getElementById("jsstyle2")
+        let p = document.getElementsByTagName('div')
+
+        p.addEventListener("mousover", RespondClick);
+        w.addEventListener("click", RespondClick);
+        z.addEventListener("mousover",  RespondMouseOver);
+        y.addEventListener("click", RespondClick);
+        y.addEventListener("mouseover", RespondMouseOver);
+        x.addEventListener("click", RespondClick); 
+        x.addEventListener("mouseover", RespondMouseOver); 
+        x.addEventListener("mouseout", RespondMouseOut);
+
+
+        function RespondClick() { 
+            alert("Button Clicked")
+        } 
+
+        function RespondMouseOver() { 
+            alert("My mouse is over the btn")
+        } 
+        function RespondMouseOver() {
+          alert("My mouse is over the")
+        }
+
+        function RespondMouseOut() { 
+            alert("My mouse is out of the btn")
+
+        }     
+        function RespondMouseOver(p) { 
+            alert("ma Souris est um boutton")
+            
+        }   
+
+    </script>
+</body>
+</html>

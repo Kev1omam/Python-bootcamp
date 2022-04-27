@@ -5,7 +5,7 @@ let names= ["john", "sarah", 23, "Rudolf",34]
     if (typeof(index) !== 'string' ){
       continue;
     }else if (index[0]  !== index[0].toLocaleUpperCase()){
-      index.replace(index[0], index[0].toLocaleUpperCase());
+     index = index.replace(index[0], index[0].toLocaleUpperCase());
       console.log(index);
 
     }
@@ -19,3 +19,4 @@ let names= ["john", "sarah", 23, "Rudolf",34]
       console,log(index);
     }
   }
+  
