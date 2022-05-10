@@ -29,7 +29,7 @@ def random_number(number):
 
 random_number(2)
 
-#exo 5 
+#exo 5 s
 
 def make_shirt(size ="small", text):
   print("je me nomme" ,text , "je fais du ", size) 
