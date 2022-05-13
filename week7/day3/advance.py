@@ -50,11 +50,13 @@
 
 
 
-people = ["Rick", "Morty", "Beth", "Jerry", "Snowball"]
-li = map (Lambda n: print(f"Hello {n}!"), list(filter(lambda n : len(n) <= 4 ,people)))
+# people = ["Rick", "Morty", "Beth", "Jerry", "Snowball"]
+# li = map (Lambda n: print(f"Hello {n}!"), list(filter(lambda n : len(n) <= 4 ,people)))
 
 
-
+from functools import reduce
+my_list = [1, 3, 5, 7],
+reduced_list = reduce(lambda first, second: first+second, my_list),
 
 
 
