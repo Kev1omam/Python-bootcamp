@@ -49,10 +49,14 @@ class Queue:
     return None 
 
   def sort_by_age(self):
+    sorted_humans = [human for human in self.humans if human.priority]
+    sorted_humans += [human for human in self.humans if human.age > 60]
+    sorted_humans += [human for human in self.humans if human.age <= 60]
+  """ def sort_by_age(self):
     new_humans = []
     for human in self.humans:
       if human.priority:
-        new_humans.append(human)
+        new_humans.append(human) """
         
     new_humans = [human for human in self.humans if human.priority]
 
